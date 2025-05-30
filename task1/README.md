@@ -6,7 +6,7 @@
 
 ### Start
 
-1. **Open** the repoin codespace:
+1. **Open** the repo in codespaces:
 
 2. **Create** the .env from the sample:
    ```bash
@@ -28,16 +28,16 @@
 ## Screenshots
 
 ### Docker Compose Up
-![Docker Compose Up](task1/Screenshots/Screenshot (771).png)
+![Docker Compose Up](task1/Screenshots/Screenshot_(770).png)
 
 ### MySQL Container Running
-![MySQL container up](task1/Screenshots/Screenshot (771).png)
+![MySQL container up](task1/Screenshots/Screenshot_(771).png)
 
 ### phpMyAdmin Login Page
-![phpMyAdmin login](task1/Screenshots/Screenshot (772).png)
+![phpMyAdmin login](task1/Screenshots/Screenshot_(772).png)
 
 ### Connecting via CLI
-![MySQL CLI connection](task1/Screenshots/Screenshot (774).png)
+![MySQL CLI connection](task1/Screenshots/Screenshot_(774).png)
 
 ### Stopping
-![Stopping](task1/Screenshots/Screenshot (775).png)
+![Stopping](task1/Screenshots/Screenshot_(775).png)
