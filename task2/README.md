@@ -1,4 +1,4 @@
-## Task 1 – MySQL + phpMyAdmin
+## Task 2 – MySQL + phpMyAdmin + Persistent Storage
 
 ### Prerequisites
 
@@ -27,17 +27,21 @@
 
 ## Screenshots
 
-### Docker Compose Up
-![Docker Compose Up](/task1/Screenshots/Screenshot_(770).png)
 
 ### MySQL Container Running
-![MySQL container up](/task1/Screenshots/Screenshot_(771).png)
+![MySQL container up](/task1/Screenshots/Screenshot_(775).png)
 
 ### phpMyAdmin Login Page
-![phpMyAdmin login](/task1/Screenshots/Screenshot_(772).png)
+![phpMyAdmin login](/task1/Screenshots/Screenshot_(776).png)
 
-### Connecting via CLI
-![MySQL CLI connection](/task1/Screenshots/Screenshot_(774).png)
+### Adding data to the mysql
+![Stopping](/task1/Screenshots/Screenshot_(781).png)
 
 ### Stopping
-![Stopping](/task1/Screenshots/Screenshot_(775).png)
+![Stopping](/task1/Screenshots/Screenshot_(777).png)
+
+### Starting the container
+![Stopping](/task1/Screenshots/Screenshot_(782).png)
+
+### Data remain same
+![Stopping](/task1/Screenshots/Screenshot_(783).png)

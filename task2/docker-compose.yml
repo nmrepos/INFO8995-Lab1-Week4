@@ -2,7 +2,8 @@ services:
   db:
     image: mysql:8.0
     restart: always
-    env_file: [ .env ]
+    env_file:
+      - .env
     environment:
       MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
       MYSQL_DATABASE:      "${MYSQL_DATABASE}"
@@ -10,15 +11,23 @@ services:
       MYSQL_PASSWORD:      "${MYSQL_PASSWORD}"
     ports:
       - "3306:3306"
+    # Adding persistent volume
+    volumes:
+      - db_data:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     restart: always
-    depends_on: [ db ]
-    env_file: [ .env ]
+    depends_on:
+      - db
+    env_file:
+      - .env
     environment:
       PMA_HOST:     db
       PMA_USER:     "${MYSQL_USER}"
       PMA_PASSWORD: "${MYSQL_PASSWORD}"
     ports:
       - "8081:80"
+
+volumes:
+  db_data:
