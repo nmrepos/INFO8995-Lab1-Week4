@@ -28,16 +28,16 @@
 ## Screenshots
 
 ### Docker Compose Up
-![Docker Compose Up](task1/Screenshots/Screenshot_(770).png)
+![Docker Compose Up](/Screenshots/Screenshot_(770).png)
 
 ### MySQL Container Running
-![MySQL container up](task1/Screenshots/Screenshot_(771).png)
+![MySQL container up](/Screenshots/Screenshot_(771).png)
 
 ### phpMyAdmin Login Page
-![phpMyAdmin login](task1/Screenshots/Screenshot_(772).png)
+![phpMyAdmin login](/Screenshots/Screenshot_(772).png)
 
 ### Connecting via CLI
-![MySQL CLI connection](task1/Screenshots/Screenshot_(774).png)
+![MySQL CLI connection](/Screenshots/Screenshot_(774).png)
 
 ### Stopping
-![Stopping](task1/Screenshots/Screenshot_(775).png)
+![Stopping](/Screenshots/Screenshot_(775).png)
