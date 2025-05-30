@@ -37,7 +37,7 @@
 ![phpMyAdmin login](/task1/Screenshots/Screenshot_(772).png)
 
 ### Connecting via CLI
-![MySQL CLI connection](/task1/Screenshots/Screenshot_(774).png)
+![MySQL CLI connection](/task1/Screenshots/Screenshot_(773).png)
 
 ### Stopping
-![Stopping](/task1/Screenshots/Screenshot_(775).png)
+![Stopping](/task1/Screenshots/Screenshot_(774).png)
